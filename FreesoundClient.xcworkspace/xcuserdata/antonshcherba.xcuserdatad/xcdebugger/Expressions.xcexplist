@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SoundService.playPause():SoundService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "player?.isPlaying">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in closure #1 in closure #1 in SoundView.body.getter:SoundView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.isPlaying">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AuthHandler.startAuth():AuthHandler.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AuthHandler.handle(_:):AuthHandler.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AuthHandler.webView(_:decidePolicyFor:preferences:decisionHandler:):AuthHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationAction.request">
+            </PersistentString>
+            <PersistentString
+               value = "navigationAction.request.url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in OAuthSwift.observeCallback(_:):OAuthSwift.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

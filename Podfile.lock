@@ -1,0 +1,28 @@
+PODS:
+  - KeychainAccess (4.2.1)
+  - Keys (1.0.1)
+  - OAuthSwift (2.0.0)
+
+DEPENDENCIES:
+  - KeychainAccess (~> 4.2.0)
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - OAuthSwift (~> 2.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - OAuthSwift
+  trunk:
+    - KeychainAccess
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
+  OAuthSwift: 6805456763cf1c7ae0c16765257ed430b7aacae7
+
+PODFILE CHECKSUM: f201ed8adadab4fc385765f3baa2267c03420c5b
+
+COCOAPODS: 1.9.1

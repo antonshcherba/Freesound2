@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C510476252370DA00C2BC31 /* UserTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C510475252370DA00C2BC31 /* UserTabView.swift */; };
+		8C51047A2524724300C2BC31 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5104792524724300C2BC31 /* UserProfileView.swift */; };
+		8C6B459A245AEAB000E5A87C /* AuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B4599245AEAAF00E5A87C /* AuthHandler.swift */; };
+		8C6B459C245AED0300E5A87C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B459B245AED0300E5A87C /* AuthView.swift */; };
+		8C6B459E245AEE3200E5A87C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6B459D245AEE3200E5A87C /* WebView.swift */; };
+		8C6FA8CF24FE8FAD00313AA7 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FA8CE24FE8FAD00313AA7 /* Configurator.swift */; };
+		8C6FA8D524FFC87100313AA7 /* SoundFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FA8D424FFC87100313AA7 /* SoundFull.swift */; };
+		8C6FA8D824FFCBE800313AA7 /* SoundDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FA8D724FFCBE800313AA7 /* SoundDetailsViewModel.swift */; };
+		8C6FA8DA2500DE2800313AA7 /* DownloadsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FA8D92500DE2800313AA7 /* DownloadsProvider.swift */; };
+		8C6FA8DC25019A5400313AA7 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FA8DB25019A5400313AA7 /* SoundService.swift */; };
+		8C8B4029246DDE8E00F237E0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B4028246DDE8E00F237E0 /* SearchBar.swift */; };
+		8CAB02BD250B9F82000BF8C5 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB02BC250B9F82000BF8C5 /* ActivityIndicator.swift */; };
 		8CAE3940244F8BC600C98281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE393F244F8BC600C98281 /* AppDelegate.swift */; };
 		8CAE3942244F8BC600C98281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE3941244F8BC600C98281 /* SceneDelegate.swift */; };
 		8CAE3944244F8BC600C98281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE3943244F8BC600C98281 /* ContentView.swift */; };
@@ -14,6 +26,14 @@
 		8CAE3949244F8BC900C98281 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE3948244F8BC900C98281 /* Preview Assets.xcassets */; };
 		8CAE394C244F8BC900C98281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAE394A244F8BC900C98281 /* LaunchScreen.storyboard */; };
 		8CAE3957244F8BC900C98281 /* FreesoundClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE3956244F8BC900C98281 /* FreesoundClientTests.swift */; };
+		8CAE3965244F8EBE00C98281 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE3964244F8EBE00C98281 /* APIError.swift */; };
+		8CAE396A2450D8FF00C98281 /* SoundShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE39692450D8FF00C98281 /* SoundShort.swift */; };
+		8CAE396D2450DA2D00C98281 /* SoundsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE396C2450DA2D00C98281 /* SoundsProvider.swift */; };
+		8CBF64DE246BC213005B6969 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF64DD246BC213005B6969 /* SoundView.swift */; };
+		8CCD3C9B2460BA07009C8C8D /* SoundsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD3C9A2460BA07009C8C8D /* SoundsViewModel.swift */; };
+		8CEE91512461F9700017A776 /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE91502461F9700017A776 /* SoundsView.swift */; };
+		A5F440CD1066333F1EDE97D5 /* Pods_FreesoundClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B34F0C40A7FB21CD284BC8C /* Pods_FreesoundClientTests.framework */; };
+		FA274D19D1619813816087E0 /* Pods_FreesoundClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E47236AF88A045EC876714 /* Pods_FreesoundClient.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B34F0C40A7FB21CD284BC8C /* Pods_FreesoundClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreesoundClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C482FC326A0E2DD8AD05C0 /* Pods-FreesoundClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreesoundClientTests.debug.xcconfig"; path = "Target Support Files/Pods-FreesoundClientTests/Pods-FreesoundClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C510475252370DA00C2BC31 /* UserTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabView.swift; sourceTree = "<group>"; };
+		8C5104792524724300C2BC31 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		8C6B4599245AEAAF00E5A87C /* AuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHandler.swift; sourceTree = "<group>"; };
+		8C6B459B245AED0300E5A87C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		8C6B459D245AEE3200E5A87C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8C6FA8CE24FE8FAD00313AA7 /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
+		8C6FA8D124FF7A5C00313AA7 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		8C6FA8D424FFC87100313AA7 /* SoundFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFull.swift; sourceTree = "<group>"; };
+		8C6FA8D724FFCBE800313AA7 /* SoundDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDetailsViewModel.swift; sourceTree = "<group>"; };
+		8C6FA8D92500DE2800313AA7 /* DownloadsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsProvider.swift; sourceTree = "<group>"; };
+		8C6FA8DB25019A5400313AA7 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		8C8B4028246DDE8E00F237E0 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		8CAB02BC250B9F82000BF8C5 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		8CAE393C244F8BC600C98281 /* FreesoundClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreesoundClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAE393F244F8BC600C98281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CAE3941244F8BC600C98281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +73,16 @@
 		8CAE3952244F8BC900C98281 /* FreesoundClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreesoundClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAE3956244F8BC900C98281 /* FreesoundClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreesoundClientTests.swift; sourceTree = "<group>"; };
 		8CAE3958244F8BC900C98281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAE3964244F8EBE00C98281 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		8CAE39692450D8FF00C98281 /* SoundShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundShort.swift; sourceTree = "<group>"; };
+		8CAE396C2450DA2D00C98281 /* SoundsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsProvider.swift; sourceTree = "<group>"; };
+		8CBF64DD246BC213005B6969 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
+		8CCD3C9A2460BA07009C8C8D /* SoundsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewModel.swift; sourceTree = "<group>"; };
+		8CEE91502461F9700017A776 /* SoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
+		AE2ABA9610EC6B12DD6BB354 /* Pods-FreesoundClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreesoundClientTests.release.xcconfig"; path = "Target Support Files/Pods-FreesoundClientTests/Pods-FreesoundClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5E47236AF88A045EC876714 /* Pods_FreesoundClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreesoundClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6620054D635716431FEE10 /* Pods-FreesoundClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreesoundClient.debug.xcconfig"; path = "Target Support Files/Pods-FreesoundClient/Pods-FreesoundClient.debug.xcconfig"; sourceTree = "<group>"; };
+		E866992947B3D9B8ABC684D9 /* Pods-FreesoundClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreesoundClient.release.xcconfig"; path = "Target Support Files/Pods-FreesoundClient/Pods-FreesoundClient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA274D19D1619813816087E0 /* Pods_FreesoundClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +98,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F440CD1066333F1EDE97D5 /* Pods_FreesoundClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C51047D25247AE600C2BC31 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				8C5104792524724300C2BC31 /* UserProfileView.swift */,
+				8C510475252370DA00C2BC31 /* UserTabView.swift */,
+				8C6B459B245AED0300E5A87C /* AuthView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		8C6FA8CD24FE8F9600313AA7 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				8C6FA8CE24FE8FAD00313AA7 /* Configurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		8C6FA8D024FF7A3300313AA7 /* BuildConfig */ = {
+			isa = PBXGroup;
+			children = (
+				8C6FA8D124FF7A5C00313AA7 /* debug.xcconfig */,
+			);
+			path = BuildConfig;
+			sourceTree = "<group>";
+		};
+		8C6FA8D624FFCBC000313AA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8CCD3C9A2460BA07009C8C8D /* SoundsViewModel.swift */,
+				8C6FA8D724FFCBE800313AA7 /* SoundDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8C8B4026246DDE5E00F237E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C51047D25247AE600C2BC31 /* User */,
+				8C8B4027246DDE7600F237E0 /* Custom */,
+				8CAE3943244F8BC600C98281 /* ContentView.swift */,
+				8CEE91502461F9700017A776 /* SoundsView.swift */,
+				8CBF64DD246BC213005B6969 /* SoundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C8B4027246DDE7600F237E0 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8C8B4028246DDE8E00F237E0 /* SearchBar.swift */,
+				8CAB02BC250B9F82000BF8C5 /* ActivityIndicator.swift */,
+				8C6B459D245AEE3200E5A87C /* WebView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		8CAE3933244F8BC600C98281 = {
 			isa = PBXGroup;
 			children = (
+				8C6FA8D024FF7A3300313AA7 /* BuildConfig */,
 				8CAE393E244F8BC600C98281 /* FreesoundClient */,
 				8CAE3955244F8BC900C98281 /* FreesoundClientTests */,
 				8CAE393D244F8BC600C98281 /* Products */,
+				F8D2FBF5EDB25B475323E3C1 /* Pods */,
+				95D28ADD20DCFDA1D3CCB46C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +186,13 @@
 		8CAE393E244F8BC600C98281 /* FreesoundClient */ = {
 			isa = PBXGroup;
 			children = (
+				8C6FA8CD24FE8F9600313AA7 /* Configurator */,
+				8C8B4026246DDE5E00F237E0 /* Views */,
+				8CAE3966244F903200C98281 /* Services */,
+				8C6FA8D624FFCBC000313AA7 /* ViewModel */,
+				8CAE3961244F8BD600C98281 /* Model */,
 				8CAE393F244F8BC600C98281 /* AppDelegate.swift */,
 				8CAE3941244F8BC600C98281 /* SceneDelegate.swift */,
-				8CAE3943244F8BC600C98281 /* ContentView.swift */,
 				8CAE3945244F8BC900C98281 /* Assets.xcassets */,
 				8CAE394A244F8BC900C98281 /* LaunchScreen.storyboard */,
 				8CAE394D244F8BC900C98281 /* Info.plist */,
@@ -107,6 +218,47 @@
 			path = FreesoundClientTests;
 			sourceTree = "<group>";
 		};
+		8CAE3961244F8BD600C98281 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE3964244F8EBE00C98281 /* APIError.swift */,
+				8CAE39692450D8FF00C98281 /* SoundShort.swift */,
+				8C6FA8D424FFC87100313AA7 /* SoundFull.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CAE3966244F903200C98281 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE396C2450DA2D00C98281 /* SoundsProvider.swift */,
+				8C6FA8D92500DE2800313AA7 /* DownloadsProvider.swift */,
+				8C6FA8DB25019A5400313AA7 /* SoundService.swift */,
+				8C6B4599245AEAAF00E5A87C /* AuthHandler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		95D28ADD20DCFDA1D3CCB46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5E47236AF88A045EC876714 /* Pods_FreesoundClient.framework */,
+				1B34F0C40A7FB21CD284BC8C /* Pods_FreesoundClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D2FBF5EDB25B475323E3C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC6620054D635716431FEE10 /* Pods-FreesoundClient.debug.xcconfig */,
+				E866992947B3D9B8ABC684D9 /* Pods-FreesoundClient.release.xcconfig */,
+				43C482FC326A0E2DD8AD05C0 /* Pods-FreesoundClientTests.debug.xcconfig */,
+				AE2ABA9610EC6B12DD6BB354 /* Pods-FreesoundClientTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAE395B244F8BC900C98281 /* Build configuration list for PBXNativeTarget "FreesoundClient" */;
 			buildPhases = (
+				99BD2690BEB773CA8383A941 /* [CP] Check Pods Manifest.lock */,
 				8CAE3938244F8BC600C98281 /* Sources */,
 				8CAE3939244F8BC600C98281 /* Frameworks */,
 				8CAE393A244F8BC600C98281 /* Resources */,
+				04054A6F6440B46C152E5CD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAE395E244F8BC900C98281 /* Build configuration list for PBXNativeTarget "FreesoundClientTests" */;
 			buildPhases = (
+				11FFEA257F8976D5F2E6491C /* [CP] Check Pods Manifest.lock */,
 				8CAE394E244F8BC900C98281 /* Sources */,
 				8CAE394F244F8BC900C98281 /* Frameworks */,
 				8CAE3950244F8BC900C98281 /* Resources */,
@@ -203,14 +358,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04054A6F6440B46C152E5CD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreesoundClient/Pods-FreesoundClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreesoundClient/Pods-FreesoundClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreesoundClient/Pods-FreesoundClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11FFEA257F8976D5F2E6491C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreesoundClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BD2690BEB773CA8383A941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreesoundClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CAE3938244F8BC600C98281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6FA8CF24FE8FAD00313AA7 /* Configurator.swift in Sources */,
+				8C6FA8DA2500DE2800313AA7 /* DownloadsProvider.swift in Sources */,
+				8CAB02BD250B9F82000BF8C5 /* ActivityIndicator.swift in Sources */,
 				8CAE3940244F8BC600C98281 /* AppDelegate.swift in Sources */,
+				8CEE91512461F9700017A776 /* SoundsView.swift in Sources */,
+				8C6FA8D824FFCBE800313AA7 /* SoundDetailsViewModel.swift in Sources */,
+				8C8B4029246DDE8E00F237E0 /* SearchBar.swift in Sources */,
+				8C51047A2524724300C2BC31 /* UserProfileView.swift in Sources */,
 				8CAE3942244F8BC600C98281 /* SceneDelegate.swift in Sources */,
+				8CAE3965244F8EBE00C98281 /* APIError.swift in Sources */,
+				8C510476252370DA00C2BC31 /* UserTabView.swift in Sources */,
+				8C6B459A245AEAB000E5A87C /* AuthHandler.swift in Sources */,
+				8C6FA8DC25019A5400313AA7 /* SoundService.swift in Sources */,
+				8C6B459C245AED0300E5A87C /* AuthView.swift in Sources */,
+				8C6FA8D524FFC87100313AA7 /* SoundFull.swift in Sources */,
+				8CAE396A2450D8FF00C98281 /* SoundShort.swift in Sources */,
+				8CCD3C9B2460BA07009C8C8D /* SoundsViewModel.swift in Sources */,
+				8CBF64DE246BC213005B6969 /* SoundView.swift in Sources */,
+				8CAE396D2450DA2D00C98281 /* SoundsProvider.swift in Sources */,
 				8CAE3944244F8BC600C98281 /* ContentView.swift in Sources */,
+				8C6B459E245AEE3200E5A87C /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +597,7 @@
 		};
 		8CAE395C244F8BC900C98281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6620054D635716431FEE10 /* Pods-FreesoundClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +618,7 @@
 		};
 		8CAE395D244F8BC900C98281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E866992947B3D9B8ABC684D9 /* Pods-FreesoundClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +639,7 @@
 		};
 		8CAE395F244F8BC900C98281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C482FC326A0E2DD8AD05C0 /* Pods-FreesoundClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +662,7 @@
 		};
 		8CAE3960244F8BC900C98281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2ABA9610EC6B12DD6BB354 /* Pods-FreesoundClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
